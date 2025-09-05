@@ -1,6 +1,4 @@
 # **Practica 2**
-___
-1.-![Archivo cargado .hs](/home/gabriel/imagenes/'Screenshot From 2025-09-02 20-01-18.png')
 
 ### **Objetivo**
 Reafirmar lo aprendido en el laboratorio sobre la creacion
