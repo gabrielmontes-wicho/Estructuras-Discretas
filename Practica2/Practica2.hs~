@@ -1,0 +1,34 @@
+
+{-
+2.-Funcion que dice Hola
+-}
+
+sayhello :: IO ()
+sayhello = do
+  nombre <- getLine
+  putStrLn ("Hello! " ++ nombre)
+
+{-
+3.-Calcular Propina
+-}
+
+calcularPropina :: Double -> Double
+calcularPropina x = x * 0.10
+
+{-
+4.-Numero menor entre los 3
+-}
+
+menor :: Int -> Int -> Int -> Int
+menor x y z =
+  if x < y && x < z
+    then x
+    else if y < x && y < z
+      then y
+      else z
+
+{-
+5.-Funcion decide
+-}
+
+decide :: Boolean -> String -> String 
